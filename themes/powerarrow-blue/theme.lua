@@ -140,7 +140,7 @@ mailicon:buttons(my_table.join(awful.button({ }, 1, function () awful.spawn(mail
 theme.mail = lain.widget.imap({
     timeout  = 100,
     server   = "pop.gmail.com",
-    mail     = "ahawer.email@gmail.com",
+    mail     = "",
     password = "",
     settings = function()
         if mailcount > 0 then
@@ -155,8 +155,8 @@ theme.mail = lain.widget.imap({
 theme.mail = lain.widget.imap({
     timeout  = 105,
     server   = "imap.one.com",
-    mail     = "andreas@hawers.dk",
-    password = "Mt.24:14",
+    mail     = "",
+    password = "",
     settings = function()
         if mailcount > 0 then
             widget:set_text(" " .. mailcount .. " ")
@@ -170,8 +170,8 @@ theme.mail = lain.widget.imap({
 theme.mail = lain.widget.imap({
     timeout  = 110,
     server   = "imap.one.com",
-    mail     = "info@hawers.dk",
-    password = "Mt.24:14",
+    mail     = "info@.dk",
+    password = "",
     settings = function()
         if mailcount > 0 then
             widget:set_text(" " .. mailcount .. " ")
