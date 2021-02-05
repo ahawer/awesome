@@ -141,7 +141,7 @@ theme.mail = lain.widget.imap({
     timeout  = 100,
     server   = "pop.gmail.com",
     mail     = "ahawer.email@gmail.com",
-    password = "Joh.3:16Dan.2:44",
+    password = "",
     settings = function()
         if mailcount > 0 then
             widget:set_text(" " .. mailcount .. " ")
