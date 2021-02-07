@@ -170,7 +170,7 @@ theme.mail = lain.widget.imap({
 theme.mail = lain.widget.imap({
     timeout  = 110,
     server   = "imap.one.com",
-    mail     = "info@.dk",
+    mail     = "",
     password = "",
     settings = function()
         if mailcount > 0 then
